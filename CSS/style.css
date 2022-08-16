@@ -1,0 +1,1007 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-width: 480px;
+    background: #fff;
+    font-family: 'AvenirNextCyr', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+    cursor: default;
+}
+
+.main_wrapper {
+    margin: 0 auto;
+    width: 480px;
+    overflow-x: hidden;
+}
+
+
+.measuring_item{
+    padding-left: 50px;
+}
+
+
+
+.benefits_section .benefits_wrapper {
+    padding: 30px 20px 140px;
+    background: #0085de url(../img/bg_blue.jpg);
+    color: #fff;
+}
+
+
+
+.offer_section.offer_top {
+    padding: 15px 0 0;
+    background: #1b5a9b url(../img/offer_top_bg2.jpg) /*tpa=http://jarko.v-stile.net.ua/images/offer_top_bg.jpg*/ center top no-repeat;
+}
+
+
+.offer_section {
+    /* height: 100vh; */
+    background-color: #339de3;
+    padding-top: 20px;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+.offer_section .triggers {
+    padding: 8px 0 8px 150px;
+    background: rgb(51 157 227);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.offer_section .triggers:before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 74px;
+    border: 4px solid #fff;
+    background: #011c4b url(../img/icons/offer_top__logo.jpg) center no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -41px;
+    left: 20px;
+}
+
+
+.offer_section .triggers li:first-child {
+    margin: 0 10px 0 0;
+    padding: 0 0 0 39px;
+    width: 157px;
+    background: url(../img/icons/offer_top__trigger1_icon.png) left center no-repeat;
+}
+
+
+.offer_section li {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    /* background-size: contain !important; */
+}
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+
+.offer_section .triggers li:last-child {
+    padding: 0 0 0 34px;
+    width: 149px;
+    background: url(../img/icons/offer_top__trigger2_icon.png) left center no-repeat;
+}
+
+
+.offer_section .subtitle {
+    margin: 50px 0 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:#FFFF;
+}
+
+
+.offer_section .subtitle span {
+    padding: 4px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: rgba(226, 6, 18, 0.7);
+}
+
+
+.offer_section .subtitle span {
+    padding: 4px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: rgba(226, 6, 18, 0.7);
+}
+
+.offer_section .description {
+    margin: 80px auto 230px;
+    width: 170px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.offer_section .discount {
+    margin: 0 0 34px 15px;
+}
+
+
+.offer_section .discount {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: -100px;
+}
+
+
+
+.offer_section .discount .value {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #fc0;
+}
+
+
+
+.offer_section .discount .value {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #fc0;
+    z-index: 21;
+}
+
+
+
+.offer_section .discount .text {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.offer_section .discount .text {
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 21;
+    margin-top: -5px;
+}
+
+
+.offer_section .benefits {
+    padding: 20px 20px 3px;
+    background: rgba(0, 132, 220, 0.8);
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -1px;
+}
+
+.offer_section .benefits {
+    padding: 20px 20px 3px;
+    background: rgba(0, 132, 220, 0.8);
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -1px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+.offer_section .benefits li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 15px 0;
+    padding: 0 0 0 35px;
+    width: 210px;
+    background: url(../img/icons/offer__benefit_icon.png) /*tpa=http://jarko.v-stile.net.ua/images/offer__benefit_icon.png*/ left top no-repeat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.offer_section .benefits li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 15px 0;
+    padding: 0 0 0 35px;
+    width: 210px;
+    background: url(../img/icons/offer__benefit_icon.png) left top no-repeat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.offer_section li {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    /* background-size: contain !important; */
+}
+
+
+.offer_section .benefits li:nth-child(even) {
+    margin: 0 0 15px;
+}
+
+.offer_section .benefits li:nth-child(even) {
+    margin: 0 0 15px;
+}
+
+
+
+
+
+.offer_section .price_wrapper {
+    padding: 30px 0;
+    background: #222 url(../img/offer_top__price_bg.jpg) /*tpa=http://jarko.v-stile.net.ua/images/offer_top__price_bg.jpg*/ center top no-repeat;
+}
+
+
+div {
+    display: block;
+}
+
+
+.offer_section .price_block {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+
+.offer_section .price_block .price_old {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+    color: #fff;
+}
+
+
+.offer_section .price_block .price_old {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+    color: #fff;
+}
+
+.offer_section .price_block .price_old .value {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-decoration: line-through;
+}
+
+
+.offer_section .price_block .price_new {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 46px;
+    color: #fc0;
+}
+
+
+.offer_section .price_block .price_new {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 46px;
+    color: #fc0;
+}
+
+
+.free {
+    margin: 10px 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 90px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #ffd200;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ffb600), to(#ffd200));
+    background-image: -webkit-linear-gradient(bottom, #ffb600 0%, #ffd200 100%);
+    background-image: -moz-linear-gradient(bottom, #ffb600 0%, #ffd200 100%);
+    background-image: -o-linear-gradient(bottom, #ffb600 0%, #ffd200 100%);
+    background-image: linear-gradient(to top, #ffb600 0%, #ffd200 100%);
+    -webkit-box-shadow: 0 5px 0 #cf9400;
+    -moz-box-shadow: 0 5px 0 #cf9400;
+    box-shadow: 0 5px 0 #cf9400;
+    font-family: 'AvenirNextCyr', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 90px;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 50%);
+    cursor: pointer;
+}
+
+
+a, input, button {
+    outline: none;
+}
+
+
+.offer_section .products_count {
+    margin: 30px 0 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.offer_section .products_count span {
+    display: inline-block;
+    vertical-align: top;
+    margin: -4px 8px 0;
+    padding: 4px 8px 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #ffd200;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ffb600), to(#ffd200));
+    background-image: -webkit-linear-gradient(bottom, #ffb600 0%, #ffd200 100%);
+    background-image: -moz-linear-gradient(bottom, #ffb600 0%, #ffd200 100%);
+    background-image: -o-linear-gradient(bottom, #ffb600 0%, #ffd200 100%);
+    background-image: linear-gradient(to top, #ffb600 0%, #ffd200 100%);
+    -webkit-box-shadow: 0 2px 0 #cf9400;
+    -moz-box-shadow: 0 2px 0 #cf9400;
+    box-shadow: 0 2px 0 #cf9400;
+    font-size: 24px;
+    color: #222;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 50%);
+}
+
+.about_section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.about_section h2 {
+    margin: 0 0 20px;
+}
+
+
+h2 {
+    padding: 45px 0 0;
+    background: url(../img/title__black_icon.png) center top no-repeat;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 span {
+    color: #008eed;
+    white-space: nowrap;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.benefits_section .benefits_wrapper {
+    padding: 30px 20px 140px;
+    background: #0085de url(../img/bg_blue.jpg);
+    color: #fff;
+}
+
+.benefits_section h2 {
+    margin: 0 0 30px;
+    background-image: url(../img/title__white_icon.png);
+}
+
+.benefits_section .benefits_list {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.benefits_section .benefit_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 30px 0;
+    width: 210px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.benefits_section .benefit_item img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.benefits_section .text_block {
+    margin: -140px 20px 0;
+    padding: 20px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 18px rgb(0 0 0 / 17%);
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 18px rgb(0 0 0 / 17%);
+    text-align: center;
+}
+
+
+.catalog_section .product.men_model {
+    
+    background: url(../img/catalog__men_model_bg.png) no-repeat;
+    background-size: contain;
+}
+
+.catalog_section .product {
+    padding: 35px 0 0;
+}
+
+
+.catalog_section h2 {
+    margin: 0 200px 20px 30px;
+    padding: 0;
+    background: none;
+    text-align: left;
+}
+
+
+
+.catalog_section .temperature_block {
+    margin: 30px 0 30px 30px;
+    padding: 0 0 0 93px;
+    height: 78px;
+    background: url(../img/catalog__temperature_icon.png) left bottom no-repeat;
+    font-weight: 700;
+}
+
+.catalog_section .temperature_block .t_item:first-child {
+    margin: 0 0 5px;
+}
+
+.catalog_section .price_block {
+    margin: 0 0 30px 30px;
+}
+
+.catalog_section .price_block .price_old {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.catalog_section .price_block .price_old .value {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-decoration: line-through;
+}
+
+.catalog_section .price_block .discount {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+    padding: 15px 0 0 7px;
+    width: 67px;
+    height: 55px;
+    background: url(../img/catalog__discount_bg.png) center no-repeat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.catalog_section .price_block .price_new {
+    margin: 15px 0 0;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 46px;
+    color: #ffb400;
+}
+
+.main-catalog {
+    padding: 30px 5px;
+    margin-top: 70px;
+    background-color: #0085de;
+}
+
+
+.catalog-container {
+    padding: 5px;
+}
+
+.catalog-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.catalog-card h3 {
+    width: 100%;
+    padding: 25px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0085de;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+.catalog-card .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    -moz-backface-visibility: hidden;
+}
+
+.catalog-card .owl-carousel .owl-prev {
+    left: 0;
+}
+
+
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel .owl-prev {
+    background-position: left center;
+    left: -20px;
+}
+
+.owl-carousel .owl-prev, .owl-carousel .owl-next {
+    width: 54px;
+    height: 54px;
+    
+    
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 48px;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.sizes_section {
+    padding: 0 0 0px;
+}
+
+.sizes_section .sizes_wrapper {
+    padding: 30px 20px 55px;
+    background: #0085de url(../img/bg_blue.jpg);
+    color: #fff;
+}
+
+
+.sizes_section h2 {
+    margin: 0 0 20px;
+    background-image: url(../img/title__white_icon.png);
+}
+
+.sizes_section .measuring_item {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 133px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.sizes_section .measuring_item .number_wrapper {
+    margin: 0 auto 15px;
+    padding: 16px;
+    width: 62px;
+    height: 62px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sizes_section .measuring_item h4 {
+    margin: 0 0 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.order_steps_section {
+    padding: 30px 20px 0;
+    background: #222 url(../img/order_steps_bg.jpg) center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.order_steps_section h2 {
+    margin: 0 0 30px;
+    background-image: url(../img/title__white_icon.png);
+    color: #fff;
+}
+
+.order_steps_section .steps_list {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.order_steps_section .step_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 30px 0;
+    width: 210px;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+.order_steps_section .step_item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.order_steps_section .step_item .number {
+    margin: -16px auto 15px;
+    width: 32px;
+    height: 32px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    font-weight: 700;
+    line-height: 32px;
+    position: relative;
+}
+
+.order_steps_section .step_item p {
+    line-height: 24px;
+    color: #fff;
+}
+
+.reviews_section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+
+.offer_section.offer_bottom {
+    background: #1b5a9b url(../img/footerbg2.jpg) /*tpa=http://jarko.v-stile.net.ua/images/offer_bottom_bg.jpg*/ center top no-repeat;
+}
+
+.offer_section {
+    /* height: 100vh; */
+    background-color: #339de3;
+    padding-top: 20px;
+}
+
+.offer_section.offer_bottom h4 {
+    margin: 0 0 24px;
+    padding: 15px 0;
+    background: rgba(0, 120, 203, 0.7);
+    -webkit-box-shadow: 0 1px 0 rgb(255 255 255 / 41%);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.41);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 41%);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+.offer_section .form_wrapper {
+    padding: 25px 25px 0;
+    background: #222;
+}
+
+.offer_section .order_form {
+    padding: 25px 0;
+    border: 1px solid #414141;
+    background: #292929;
+}
+
+
+.offer_section .timer_block {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.offer_section .timer_block p {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.offer_section .timer {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -1px;
+}
+
+.offer_section .timer .timer_item {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: normal;
+}
+
+.offer_section .timer .text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -5px;
+    padding: 5px 0;
+    background: #292929;
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+}
+
+.offer_section .timer .count {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 16px 0 0;
+    width: 66px;
+    height: 56px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 52px;
+    color: #008eed;
+}
+
+.offer_section .input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+    width: 370px;
+    height: 74px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    font-family: 'AvenirNextCyr', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #222;
+    text-align: center;
+}
+
+.footer_section {
+    padding: 25px 0;
+    background: #222;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.reviews_section .author_info {
+    margin: 15px 0;
+    padding: 0 0 20px;
+    background: url(../img/reviews__stars.png) center bottom no-repeat;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+
+h6{
+    color:#FFFF;
+}
+
+.number_num{
+    background: #FFFF;
+    color:black;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    position: relative;
+    margin: -16px auto 15px;
+    
+}
+
+p{
+    color:black;
+}
+
+.p_custom{
+    color:#FFFF;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 480px) {
+    .col-6, .col-sm-3{
+        
+    }
+}
+
+.white{
+    color:#FFFF;
+}
